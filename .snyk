@@ -9,3 +9,11 @@ patch:
         patched: '2016-06-20T21:30:32.216Z'
     - tap > coveralls > request:
         patched: '2016-06-20T21:30:32.216Z'
+  'npm:hawk:20160119':
+    - tap > codecov.io > request > hawk:
+        patched: '2016-08-02T10:47:18.126Z'
+  'npm:minimatch:20160620':
+    - snyk > recursive-readdir > minimatch:
+        patched: '2016-08-02T10:47:18.126Z'
+    - tap > nyc > istanbul > fileset > minimatch:
+        patched: '2016-08-02T10:47:18.126Z'
