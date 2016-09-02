@@ -9,3 +9,9 @@ patch:
         patched: '2016-06-20T21:30:32.216Z'
     - tap > coveralls > request:
         patched: '2016-06-20T21:30:32.216Z'
+  'npm:hawk:20160119':
+    - tap > codecov.io > request > hawk:
+        patched: '2016-09-02T11:06:11.477Z'
+  'npm:minimatch:20160620':
+    - snyk > recursive-readdir > minimatch:
+        patched: '2016-09-02T11:06:11.477Z'
